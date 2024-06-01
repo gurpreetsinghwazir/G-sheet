@@ -1,7 +1,7 @@
 #container{
     display: grid;
-    grid-template-columns: repeat(26, 100px);
-    grid-template-rows: repeat(20, 100px);
+    grid-template-columns: 100px repeat(60, 100px);
+    grid-template-rows: 50px pxrepeat(26, 100px);
 }
 .col{
 border: 1px solid grey;
